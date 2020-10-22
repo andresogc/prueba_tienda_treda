@@ -25,6 +25,7 @@ Route::get('/tiendas','TiendaController@get');
 Route::delete('/tienda/delete/{id}','TiendaController@delete');
 Route::put('/tienda/update/{id}','TiendaController@put');
 Route::post('/tienda/create','TiendaController@create');
+Route::get('/tienda_productos/{id}','TiendaController@getProductos');
 
 
 //rutas producto
