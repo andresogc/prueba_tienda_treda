@@ -16,7 +16,7 @@ class CreateTiendasTable extends Migration
         Schema::create('tiendas', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->string('fecha_apertura');
+            $table->date('fecha_apertura');
             $table->timestamps();
         });
     }
